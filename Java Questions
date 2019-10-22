@@ -1,4 +1,4 @@
-// Programe to find Frequecy of Character in a String 
+/////////////// Programe to find Frequecy of Character in a String 
 import java.util.*;
 public class Main
 {
@@ -24,5 +24,21 @@ public class Main
 	            if(a[i]>0)
 	            System.out.println((char)(i+65)+"="+a[i]);
 	        }
+	}
+}
+//////////////////Remove duplicates from an array in Java 
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	
+	int[] a = {10,10,20,30};
+	Set<Integer> set = new HashSet<Integer>();
+	
+    for (int num : a) {
+    set.add(num);
+    }
+
+        System.out.println(set);
 	}
 }
